@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AppiumFunctional]">
+  <test name="Sanity Test(failed)">
+    <classes>
+      <class name="com.zivame.mobile.sanity.scenarios.LoginTest">
+        <methods>
+          <include name="VerifyValidLogin"/>
+          <include name="initReporting"/>
+        </methods>
+      </class> <!-- com.zivame.mobile.sanity.scenarios.LoginTest -->
+      <class name="com.zivame.common.scenarios.BaseTest$AppiumStartStop">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.zivame.common.scenarios.BaseTest$AppiumStartStop -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [AppiumFunctional] -->

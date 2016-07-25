@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="AppiumFunctional" verbose="1" preserve-order="true" > 
+    
+     <listeners>
+		<listener class-name="com.zivame.common.scenarios.BaseTest" />
+	</listeners>
+	 <parameter name="test-name"  value="AppiumFunctional"/>
+	  
+	 
+	 <test name="Sanity Test" enabled="true" preserve-order="true" >   	   
+	     
+	     
+	     <packages>    
+    	  		 <package name="com.zivame.mobile.sanity.scenarios" />
+ 				
+    	</packages>    
+	     
+    <!--	<classes>    
+    	  		 <parameter name="test-name"  value="AppiumFunctional"/>
+ 				 <parameter name="version"  value="4.4.4"/>  		
+    	        <!--  <class name="com.newshunt.news.scenarios.TopicsTest"/> -->
+                 <!--  <class name="com.newshunt.common.scenarios.OnboardingTest"/>    	     -->
+			<!--	  <class name="com.newshunt.books.scenarios.BooksHomeTest"/> 
+				<!-- 		<class name="com.newshunt.books.scenarios.BooksDetailsTest"/> -->
+    <!--	</classes>     
+     </test>
+
+  <!--  test name="SelUITests" enabled="true" >         
+       <parameter name="test-name"  value="SelFunctional"/>
+ 	   <parameter name="version"  value="4.2.2"/> 
+    	<classes>      		 
+    	    <class name="com.newshunt.news.scenarios.topicsTest" />
+    	</classes> 
+  </test>-->
+ 
+     
+     </test>
+
+</suite>	

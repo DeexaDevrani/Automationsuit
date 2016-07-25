@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="AppiumFunctional" verbose="1" preserve-order="true" >       
+    
+ 	 <test name="Sanity Test" enabled="true" preserve-order="true" >    	    
+    	<packages>    
+    	  		 <package name="com.zivame.msite.sanity.scenarios" />
+ 				
+    	</packages>     
+     </test>
+
+</suite>	
